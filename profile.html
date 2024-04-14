@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Student Connect</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <header>
+        <h1>Student Connect</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="chatbot.html">Messages</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="profile">
+            <h2>Your Profile</h2>
+            <div id="profile-info">
+                <p><strong>Name:</strong> John Doe</p>
+                <p><strong>Email:</strong> john@example.com</p>
+                <p><strong>University:</strong> ABC University</p>
+            </div>
+            <button id="edit-profile-btn">Edit Profile</button>
+        </section>
+        <section id="edit-profile" style="display: none;">
+            <h2>Edit Profile</h2>
+            <form id="edit-profile-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" value="John Doe">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" value="john@example.com">
+                <label for="university">University:</label>
+                <input type="text" id="university" name="university" value="ABC University">
+                <button type="submit">Save Changes</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Student Connect</p>
+    </footer>
+    <script src="profile.js"></script>
+</body>
+</html>

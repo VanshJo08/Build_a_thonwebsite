@@ -1,0 +1,106 @@
+header {
+    background-color: #333; /* Dark textured color for header */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+main {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background: #f0f0f0; /* fallback for non-supporting browsers */
+    background: linear-gradient(to bottom right, #f0f0f0, #d9d9d9);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#profile-info {
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#edit-profile {
+    margin-top: 20px;
+}
+
+#edit-profile-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#edit-profile-form input {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#edit-profile-form button {
+    background: #4CAF50;
+    background: linear-gradient(to bottom right, #4CAF50, #45a049);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#edit-profile-form button:hover {
+    background: #45a049;
+    background: linear-gradient(to bottom right, #45a049, #4CAF50);
+}
+
+/* Profile page styles */
+
+#profile {
+    text-align: center;
+}
+
+#profile h2 {
+    margin-bottom: 20px;
+}
+
+#profile-info p {
+    margin: 5px 0;
+}
+
+#edit-profile h2 {
+    margin-bottom: 20px;
+}
+
+#edit-profile-form label {
+    font-weight: bold;
+}
+
+#edit-profile-form button {
+    margin-top: 10px;
+}
+footer {
+    background-color: #333; /* Dark textured color for footer */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
